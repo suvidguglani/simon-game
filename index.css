@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  text-align: center;
+  background: linear-gradient(rgb(214, 214, 214), rgb(104, 104, 104));
+  background-position: center;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#gameName {
+  font-size: 4.5rem;
+  color: #2b2b2b;
+  margin: 2.5rem auto;
+}
+.content {
+  width: 98vw;
+  display: flex;
+  margin: 0% auto;
+}
+
+.content .instructions {
+  padding: 10% 0%;
+  width: 30%;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+.content .container {
+  background: linear-gradient(rgb(146, 50, 255), rgb(145, 27, 255));
+  height: 75vh;
+  width: 75vh;
+  border: 1rem solid rgb(0, 6, 95);
+  border-radius: 4%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content .level {
+  width: 30%;
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 10% 0%;
+  margin: 1rem auto;
+}
+
+.container .box {
+  height: 47.5%;
+  width: 47.5%;
+  margin: auto;
+  border: 0.8rem solid rgb(251, 255, 0);
+  border-radius: 4%;
+}
+
+.gameOver {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.topLeft {
+  background: linear-gradient(rgb(133, 0, 0), rgb(255, 0, 0));
+}
+
+.topRight {
+  background: linear-gradient(rgb(8, 100, 0), rgb(21, 255, 0));
+}
+
+.bottomRight {
+  background: linear-gradient(rgb(0, 238, 255), rgb(0, 93, 100));
+}
+
+.bottomLeft {
+  background: linear-gradient(rgb(212, 0, 255), rgb(88, 0, 105));
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgb(196, 196, 196);
+  background: rgb(39, 39, 39);
+}
